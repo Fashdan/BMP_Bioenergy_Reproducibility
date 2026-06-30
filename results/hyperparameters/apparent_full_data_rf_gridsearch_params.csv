@@ -1,0 +1,6 @@
+scenario_id,model,basis,best_inner_r2,max_depth,max_features,min_samples_leaf,min_samples_split,n_estimators
+A_BMP_VS_all_features,RF_full_data_gridsearch_apparent,apparent_full_data_refit_after_5fold_gridsearch,0.4091119763277942,5.0,0.7,4,10,100
+B_BMP_DM_no_DM_VS,RF_full_data_gridsearch_apparent,apparent_full_data_refit_after_5fold_gridsearch,0.4859956275539498,5.0,0.7,4,2,50
+C_BMP_DM_all_features,RF_full_data_gridsearch_apparent,apparent_full_data_refit_after_5fold_gridsearch,0.5569137976928081,,sqrt,1,2,50
+D1_BMP_DM_no_DM,RF_full_data_gridsearch_apparent,apparent_full_data_refit_after_5fold_gridsearch,0.5583157252066416,5.0,0.7,2,2,50
+D2_BMP_DM_no_VS,RF_full_data_gridsearch_apparent,apparent_full_data_refit_after_5fold_gridsearch,0.5537878985552751,5.0,0.7,2,2,50

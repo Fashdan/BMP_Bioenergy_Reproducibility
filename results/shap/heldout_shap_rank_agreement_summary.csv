@@ -1,0 +1,10 @@
+scenario_id,basis,model_1,model_2,spearman_mean,spearman_sd,kendall_mean,kendall_sd,top3_overlap_mean,top3_overlap_min
+A_BMP_VS_all_features,outer_fold_heldout,ExtraTrees,GradientBoosting,0.8547272727272728,0.07354571942225112,0.6989090909090909,0.102336343850693,2.14,1
+A_BMP_VS_all_features,outer_fold_heldout,ExtraTrees,RandomForest,0.8845454545454546,0.05920853142885649,0.7418181818181818,0.09035079029052512,2.4,1
+A_BMP_VS_all_features,outer_fold_heldout,GradientBoosting,RandomForest,0.8760000000000001,0.06866581461551506,0.7432727272727273,0.10003473844250599,2.2,1
+B_BMP_DM_no_DM_VS,outer_fold_heldout,ExtraTrees,GradientBoosting,0.8573333333333334,0.08852277209361624,0.7155555555555556,0.13215656061268985,2.56,2
+B_BMP_DM_no_DM_VS,outer_fold_heldout,ExtraTrees,RandomForest,0.8686666666666666,0.08085708676872808,0.7266666666666667,0.12887481352498056,2.82,2
+B_BMP_DM_no_DM_VS,outer_fold_heldout,GradientBoosting,RandomForest,0.88,0.07142857142857142,0.76,0.11304440517311025,2.66,2
+C_BMP_DM_all_features,outer_fold_heldout,ExtraTrees,GradientBoosting,0.8772727272727273,0.06014122918710825,0.7301818181818182,0.09665409370702062,2.18,1
+C_BMP_DM_all_features,outer_fold_heldout,ExtraTrees,RandomForest,0.9074545454545455,0.05258345173329941,0.784,0.08828418211819504,2.58,2
+C_BMP_DM_all_features,outer_fold_heldout,GradientBoosting,RandomForest,0.8889090909090911,0.0640271594421492,0.76,0.10019377414018651,2.38,1

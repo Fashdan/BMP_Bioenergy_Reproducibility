@@ -1,0 +1,31 @@
+scenario_id,test,stratum,n,dm_median,pearson_r,pearson_p,slope,slope_p,slope_se,bootstrap_delta_r_ci_low,bootstrap_delta_r_ci_high,interaction_p,note
+A_BMP_VS_all_features,observed_lignin_target_association,low_DM,64,33.7,-0.4978751098361408,2.8388611763924946e-05,-3.205253108612669,2.838861176392493e-05,0.7090710380913581,,,,Observed association only; not a causal mechanism.
+A_BMP_VS_all_features,observed_lignin_target_association,high_DM,63,33.7,-0.28859100474390337,0.021802499643221684,-1.5417819059572744,0.021802499643221614,0.6549263449831327,,,,Observed association only; not a causal mechanism.
+A_BMP_VS_all_features,observed_lignin_target_association,all,127,33.7,-0.345620666552146,6.897415361634045e-05,-2.2244145394794868,6.897415361634039e-05,0.5401782915502487,,,,Observed association only; not a causal mechanism.
+A_BMP_VS_all_features,bootstrap_delta_r_low_minus_high_DM,low_minus_high,127,33.7,,,,,,-0.4673221660410664,0.10267396402975955,,Bootstrap CI for observed low-DM minus high-DM Pearson-r contrast.
+A_BMP_VS_all_features,median_split_lignin_x_high_DM_interaction,all,127,33.7,,,,,,,,0.08722095761051518,Unadjusted median-split slope-difference test.
+A_BMP_VS_all_features,adjusted_continuous_lignin_x_DM_interaction,all,127,33.7,,,,,,,,0.10855787978073606,Continuous interaction adjusted for the scenario feature set; interpret cautiously under collinearity.
+B_BMP_DM_no_DM_VS,observed_lignin_target_association,low_DM,64,33.7,-0.6650888676226563,2.043190101508005e-09,-4.414779054315657,2.043190101508061e-09,0.629530752926934,,,,Observed association only; not a causal mechanism.
+B_BMP_DM_no_DM_VS,observed_lignin_target_association,high_DM,63,33.7,-0.40884834935632364,0.0008783832859643231,-2.4281530530673194,0.000878383285964323,0.6939536571374774,,,,Observed association only; not a causal mechanism.
+B_BMP_DM_no_DM_VS,observed_lignin_target_association,all,127,33.7,-0.4856720183335698,7.136907446670345e-09,-3.2733356479261837,7.136907446670059e-09,0.5269555696793695,,,,Observed association only; not a causal mechanism.
+B_BMP_DM_no_DM_VS,bootstrap_delta_r_low_minus_high_DM,low_minus_high,127,33.7,,,,,,-0.5001864469633058,0.02359091415332779,,Bootstrap CI for observed low-DM minus high-DM Pearson-r contrast.
+B_BMP_DM_no_DM_VS,median_split_lignin_x_high_DM_interaction,all,127,33.7,,,,,,,,0.03612589105615238,Unadjusted median-split slope-difference test.
+B_BMP_DM_no_DM_VS,adjusted_continuous_lignin_x_DM_interaction,all,127,33.7,,,,,,,,0.38064115039331536,Continuous interaction adjusted for the scenario feature set; interpret cautiously under collinearity.
+C_BMP_DM_all_features,observed_lignin_target_association,low_DM,64,33.7,-0.6650888676226563,2.043190101508005e-09,-4.414779054315657,2.043190101508061e-09,0.629530752926934,,,,Observed association only; not a causal mechanism.
+C_BMP_DM_all_features,observed_lignin_target_association,high_DM,63,33.7,-0.40884834935632364,0.0008783832859643231,-2.4281530530673194,0.000878383285964323,0.6939536571374774,,,,Observed association only; not a causal mechanism.
+C_BMP_DM_all_features,observed_lignin_target_association,all,127,33.7,-0.4856720183335698,7.136907446670345e-09,-3.2733356479261837,7.136907446670059e-09,0.5269555696793695,,,,Observed association only; not a causal mechanism.
+C_BMP_DM_all_features,bootstrap_delta_r_low_minus_high_DM,low_minus_high,127,33.7,,,,,,-0.501346984679785,0.01793355835135821,,Bootstrap CI for observed low-DM minus high-DM Pearson-r contrast.
+C_BMP_DM_all_features,median_split_lignin_x_high_DM_interaction,all,127,33.7,,,,,,,,0.03612589105615238,Unadjusted median-split slope-difference test.
+C_BMP_DM_all_features,adjusted_continuous_lignin_x_DM_interaction,all,127,33.7,,,,,,,,0.34334067664462653,Continuous interaction adjusted for the scenario feature set; interpret cautiously under collinearity.
+D1_BMP_DM_no_DM,observed_lignin_target_association,low_DM,64,33.7,-0.6650888676226563,2.043190101508005e-09,-4.414779054315657,2.043190101508061e-09,0.629530752926934,,,,Observed association only; not a causal mechanism.
+D1_BMP_DM_no_DM,observed_lignin_target_association,high_DM,63,33.7,-0.40884834935632364,0.0008783832859643231,-2.4281530530673194,0.000878383285964323,0.6939536571374774,,,,Observed association only; not a causal mechanism.
+D1_BMP_DM_no_DM,observed_lignin_target_association,all,127,33.7,-0.4856720183335698,7.136907446670345e-09,-3.2733356479261837,7.136907446670059e-09,0.5269555696793695,,,,Observed association only; not a causal mechanism.
+D1_BMP_DM_no_DM,bootstrap_delta_r_low_minus_high_DM,low_minus_high,127,33.7,,,,,,-0.5017879117367554,0.019973687690262823,,Bootstrap CI for observed low-DM minus high-DM Pearson-r contrast.
+D1_BMP_DM_no_DM,median_split_lignin_x_high_DM_interaction,all,127,33.7,,,,,,,,0.03612589105615238,Unadjusted median-split slope-difference test.
+D1_BMP_DM_no_DM,adjusted_continuous_lignin_x_DM_interaction,all,127,33.7,,,,,,,,0.8119763654486631,Continuous interaction adjusted for the scenario feature set; interpret cautiously under collinearity.
+D2_BMP_DM_no_VS,observed_lignin_target_association,low_DM,64,33.7,-0.6650888676226563,2.043190101508005e-09,-4.414779054315657,2.043190101508061e-09,0.629530752926934,,,,Observed association only; not a causal mechanism.
+D2_BMP_DM_no_VS,observed_lignin_target_association,high_DM,63,33.7,-0.40884834935632364,0.0008783832859643231,-2.4281530530673194,0.000878383285964323,0.6939536571374774,,,,Observed association only; not a causal mechanism.
+D2_BMP_DM_no_VS,observed_lignin_target_association,all,127,33.7,-0.4856720183335698,7.136907446670345e-09,-3.2733356479261837,7.136907446670059e-09,0.5269555696793695,,,,Observed association only; not a causal mechanism.
+D2_BMP_DM_no_VS,bootstrap_delta_r_low_minus_high_DM,low_minus_high,127,33.7,,,,,,-0.5013697079732116,0.015558369599719334,,Bootstrap CI for observed low-DM minus high-DM Pearson-r contrast.
+D2_BMP_DM_no_VS,median_split_lignin_x_high_DM_interaction,all,127,33.7,,,,,,,,0.03612589105615238,Unadjusted median-split slope-difference test.
+D2_BMP_DM_no_VS,adjusted_continuous_lignin_x_DM_interaction,all,127,33.7,,,,,,,,0.7174815285409135,Continuous interaction adjusted for the scenario feature set; interpret cautiously under collinearity.

@@ -1,0 +1,4 @@
+scenario_id,basis,best_inner_r2,max_depth,max_features,min_samples_leaf,min_samples_split,n_estimators
+A_BMP_VS_all_features,full_data_gridsearch_for_apparent_SHAP,0.4091119763277942,5.0,0.7,4,10,100
+B_BMP_DM_no_DM_VS,full_data_gridsearch_for_apparent_SHAP,0.4859956275539498,5.0,0.7,4,2,50
+C_BMP_DM_all_features,full_data_gridsearch_for_apparent_SHAP,0.5569137976928081,,sqrt,1,2,50

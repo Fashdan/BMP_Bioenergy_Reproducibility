@@ -1,0 +1,451 @@
+scenario_id,basis,outer_id,repeat,fold,model_1,model_2,spearman_rank_correlation,kendall_rank_correlation,top3_overlap_count,top3_overlap_features
+A_BMP_VS_all_features,outer_fold_heldout,1,1,1,ExtraTrees,GradientBoosting,0.9272727272727275,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,1,1,1,ExtraTrees,RandomForest,0.8636363636363636,0.7090909090909091,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,1,1,1,GradientBoosting,RandomForest,0.9,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,2,1,2,ExtraTrees,GradientBoosting,0.8363636363636365,0.6727272727272727,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,2,1,2,ExtraTrees,RandomForest,0.9090909090909091,0.7818181818181819,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,2,1,2,GradientBoosting,RandomForest,0.9363636363636365,0.8181818181818182,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,3,1,3,ExtraTrees,GradientBoosting,0.7181818181818183,0.4909090909090909,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,3,1,3,ExtraTrees,RandomForest,0.7545454545454545,0.5636363636363636,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,3,1,3,GradientBoosting,RandomForest,0.7090909090909092,0.5636363636363636,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,4,1,4,ExtraTrees,GradientBoosting,0.7636363636363637,0.5272727272727272,1,DM
+A_BMP_VS_all_features,outer_fold_heldout,4,1,4,ExtraTrees,RandomForest,0.8909090909090911,0.7818181818181819,1,DM
+A_BMP_VS_all_features,outer_fold_heldout,4,1,4,GradientBoosting,RandomForest,0.9,0.7454545454545454,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,5,1,5,ExtraTrees,GradientBoosting,0.9090909090909091,0.7090909090909091,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,5,1,5,ExtraTrees,RandomForest,0.8909090909090911,0.7090909090909091,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,5,1,5,GradientBoosting,RandomForest,0.9272727272727275,0.8545454545454545,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,6,2,1,ExtraTrees,GradientBoosting,0.9,0.7454545454545454,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,6,2,1,ExtraTrees,RandomForest,0.9,0.7454545454545454,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,6,2,1,GradientBoosting,RandomForest,0.8909090909090911,0.7090909090909091,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,7,2,2,ExtraTrees,GradientBoosting,0.8636363636363636,0.7090909090909091,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,7,2,2,ExtraTrees,RandomForest,0.8727272727272729,0.7454545454545454,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,7,2,2,GradientBoosting,RandomForest,0.990909090909091,0.9636363636363636,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,8,2,3,ExtraTrees,GradientBoosting,0.8909090909090911,0.7454545454545454,2,DM; Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,8,2,3,ExtraTrees,RandomForest,0.9363636363636365,0.8181818181818182,3,DM; Hydrogen; VS
+A_BMP_VS_all_features,outer_fold_heldout,8,2,3,GradientBoosting,RandomForest,0.8636363636363636,0.7090909090909091,2,DM; Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,9,2,4,ExtraTrees,GradientBoosting,0.7636363636363637,0.6000000000000001,1,DM
+A_BMP_VS_all_features,outer_fold_heldout,9,2,4,ExtraTrees,RandomForest,0.8454545454545455,0.6727272727272727,2,DM; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,9,2,4,GradientBoosting,RandomForest,0.881818181818182,0.7090909090909091,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,10,2,5,ExtraTrees,GradientBoosting,0.8363636363636365,0.6727272727272727,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,10,2,5,ExtraTrees,RandomForest,0.881818181818182,0.7454545454545454,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,10,2,5,GradientBoosting,RandomForest,0.690909090909091,0.5636363636363636,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,11,3,1,ExtraTrees,GradientBoosting,0.8636363636363636,0.7090909090909091,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,11,3,1,ExtraTrees,RandomForest,0.790909090909091,0.6000000000000001,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,11,3,1,GradientBoosting,RandomForest,0.9363636363636365,0.8181818181818182,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,12,3,2,ExtraTrees,GradientBoosting,0.8181818181818182,0.7090909090909091,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,12,3,2,ExtraTrees,RandomForest,0.7545454545454545,0.5636363636363636,2,Hemicelluloses; Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,12,3,2,GradientBoosting,RandomForest,0.790909090909091,0.6363636363636364,1,Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,13,3,3,ExtraTrees,GradientBoosting,0.9181818181818183,0.7818181818181819,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,13,3,3,ExtraTrees,RandomForest,0.9,0.7454545454545454,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,13,3,3,GradientBoosting,RandomForest,0.8181818181818182,0.6727272727272727,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,14,3,4,ExtraTrees,GradientBoosting,0.6090909090909091,0.45454545454545453,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,14,3,4,ExtraTrees,RandomForest,0.9181818181818183,0.7454545454545454,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,14,3,4,GradientBoosting,RandomForest,0.8181818181818182,0.6363636363636364,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,15,3,5,ExtraTrees,GradientBoosting,0.790909090909091,0.6000000000000001,1,DM
+A_BMP_VS_all_features,outer_fold_heldout,15,3,5,ExtraTrees,RandomForest,0.7000000000000001,0.5272727272727272,2,Carbon; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,15,3,5,GradientBoosting,RandomForest,0.7545454545454545,0.5636363636363636,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,16,4,1,ExtraTrees,GradientBoosting,0.8909090909090911,0.7454545454545454,2,DM; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,16,4,1,ExtraTrees,RandomForest,0.8636363636363636,0.7090909090909091,2,Hydrogen; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,16,4,1,GradientBoosting,RandomForest,0.8909090909090911,0.7454545454545454,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,17,4,2,ExtraTrees,GradientBoosting,0.8636363636363636,0.7454545454545454,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,17,4,2,ExtraTrees,RandomForest,0.8636363636363636,0.7090909090909091,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,17,4,2,GradientBoosting,RandomForest,0.8909090909090911,0.7454545454545454,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,18,4,3,ExtraTrees,GradientBoosting,0.881818181818182,0.7454545454545454,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,18,4,3,ExtraTrees,RandomForest,0.9272727272727275,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,18,4,3,GradientBoosting,RandomForest,0.8272727272727273,0.6727272727272727,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,19,4,4,ExtraTrees,GradientBoosting,0.8454545454545455,0.6363636363636364,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,19,4,4,ExtraTrees,RandomForest,0.8181818181818182,0.6727272727272727,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,19,4,4,GradientBoosting,RandomForest,0.9727272727272729,0.8909090909090909,3,Hydrogen; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,20,4,5,ExtraTrees,GradientBoosting,0.790909090909091,0.6000000000000001,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,20,4,5,ExtraTrees,RandomForest,0.9454545454545454,0.8181818181818182,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,20,4,5,GradientBoosting,RandomForest,0.9181818181818183,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,21,5,1,ExtraTrees,GradientBoosting,0.8181818181818182,0.6727272727272727,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,21,5,1,ExtraTrees,RandomForest,0.8636363636363636,0.6727272727272727,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,21,5,1,GradientBoosting,RandomForest,0.8727272727272729,0.7090909090909091,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,22,5,2,ExtraTrees,GradientBoosting,0.9,0.7818181818181819,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,22,5,2,ExtraTrees,RandomForest,0.9454545454545454,0.8545454545454545,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,22,5,2,GradientBoosting,RandomForest,0.9363636363636365,0.8545454545454545,3,Hydrogen; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,23,5,3,ExtraTrees,GradientBoosting,0.8727272727272729,0.6727272727272727,2,DM; VS
+A_BMP_VS_all_features,outer_fold_heldout,23,5,3,ExtraTrees,RandomForest,0.8000000000000002,0.6363636363636364,1,VS
+A_BMP_VS_all_features,outer_fold_heldout,23,5,3,GradientBoosting,RandomForest,0.7363636363636363,0.5272727272727272,2,Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,24,5,4,ExtraTrees,GradientBoosting,0.9636363636363637,0.8909090909090909,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,24,5,4,ExtraTrees,RandomForest,0.8909090909090911,0.7454545454545454,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,24,5,4,GradientBoosting,RandomForest,0.8909090909090911,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,25,5,5,ExtraTrees,GradientBoosting,0.7272727272727273,0.6000000000000001,2,DM; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,25,5,5,ExtraTrees,RandomForest,0.8181818181818182,0.6363636363636364,1,DM
+A_BMP_VS_all_features,outer_fold_heldout,25,5,5,GradientBoosting,RandomForest,0.8363636363636365,0.6727272727272727,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,26,6,1,ExtraTrees,GradientBoosting,0.7727272727272727,0.6000000000000001,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,26,6,1,ExtraTrees,RandomForest,0.9,0.7090909090909091,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,26,6,1,GradientBoosting,RandomForest,0.8090909090909091,0.6000000000000001,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,27,6,2,ExtraTrees,GradientBoosting,0.9454545454545454,0.8909090909090909,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,27,6,2,ExtraTrees,RandomForest,0.9,0.7818181818181819,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,27,6,2,GradientBoosting,RandomForest,0.9181818181818183,0.8181818181818182,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,28,6,3,ExtraTrees,GradientBoosting,0.9454545454545454,0.8545454545454545,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,28,6,3,ExtraTrees,RandomForest,0.9363636363636365,0.8545454545454545,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,28,6,3,GradientBoosting,RandomForest,0.9454545454545454,0.8545454545454545,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,29,6,4,ExtraTrees,GradientBoosting,0.9090909090909091,0.7818181818181819,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,29,6,4,ExtraTrees,RandomForest,0.9181818181818183,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,29,6,4,GradientBoosting,RandomForest,0.9545454545454546,0.8545454545454545,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,30,6,5,ExtraTrees,GradientBoosting,0.881818181818182,0.7818181818181819,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,30,6,5,ExtraTrees,RandomForest,0.9636363636363637,0.8909090909090909,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,30,6,5,GradientBoosting,RandomForest,0.9363636363636365,0.8181818181818182,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,31,7,1,ExtraTrees,GradientBoosting,0.9545454545454546,0.8545454545454545,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,31,7,1,ExtraTrees,RandomForest,0.9454545454545454,0.8909090909090909,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,31,7,1,GradientBoosting,RandomForest,0.9363636363636365,0.8181818181818182,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,32,7,2,ExtraTrees,GradientBoosting,0.8545454545454546,0.6727272727272727,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,32,7,2,ExtraTrees,RandomForest,0.9363636363636365,0.8181818181818182,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,32,7,2,GradientBoosting,RandomForest,0.8454545454545455,0.7090909090909091,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,33,7,3,ExtraTrees,GradientBoosting,0.9181818181818183,0.7818181818181819,2,DM; Hemicelluloses
+A_BMP_VS_all_features,outer_fold_heldout,33,7,3,ExtraTrees,RandomForest,0.881818181818182,0.7090909090909091,2,DM; Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,33,7,3,GradientBoosting,RandomForest,0.9090909090909091,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,34,7,4,ExtraTrees,GradientBoosting,0.9363636363636365,0.8181818181818182,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,34,7,4,ExtraTrees,RandomForest,0.8909090909090911,0.7818181818181819,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,34,7,4,GradientBoosting,RandomForest,0.7818181818181819,0.6727272727272727,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,35,7,5,ExtraTrees,GradientBoosting,0.8545454545454546,0.7090909090909091,1,Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,35,7,5,ExtraTrees,RandomForest,0.9,0.7818181818181819,2,DM; Hydrogen
+A_BMP_VS_all_features,outer_fold_heldout,35,7,5,GradientBoosting,RandomForest,0.9090909090909091,0.8545454545454545,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,36,8,1,ExtraTrees,GradientBoosting,0.8272727272727273,0.6727272727272727,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,36,8,1,ExtraTrees,RandomForest,0.8363636363636365,0.6363636363636364,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,36,8,1,GradientBoosting,RandomForest,0.790909090909091,0.6000000000000001,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,37,8,2,ExtraTrees,GradientBoosting,0.7545454545454545,0.5636363636363636,1,Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,37,8,2,ExtraTrees,RandomForest,0.7818181818181819,0.5636363636363636,2,DM; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,37,8,2,GradientBoosting,RandomForest,0.8454545454545455,0.7090909090909091,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,38,8,3,ExtraTrees,GradientBoosting,0.9454545454545454,0.8181818181818182,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,38,8,3,ExtraTrees,RandomForest,0.9,0.7454545454545454,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,38,8,3,GradientBoosting,RandomForest,0.8545454545454546,0.7090909090909091,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,39,8,4,ExtraTrees,GradientBoosting,0.7727272727272727,0.5272727272727272,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,39,8,4,ExtraTrees,RandomForest,0.9,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,39,8,4,GradientBoosting,RandomForest,0.8727272727272729,0.6727272727272727,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,40,8,5,ExtraTrees,GradientBoosting,0.8545454545454546,0.7090909090909091,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,40,8,5,ExtraTrees,RandomForest,0.9454545454545454,0.8181818181818182,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,40,8,5,GradientBoosting,RandomForest,0.881818181818182,0.7454545454545454,1,Lignin
+A_BMP_VS_all_features,outer_fold_heldout,41,9,1,ExtraTrees,GradientBoosting,0.7363636363636363,0.5272727272727272,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,41,9,1,ExtraTrees,RandomForest,0.8909090909090911,0.7090909090909091,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,41,9,1,GradientBoosting,RandomForest,0.8090909090909091,0.6727272727272727,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,42,9,2,ExtraTrees,GradientBoosting,0.9090909090909091,0.7454545454545454,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,42,9,2,ExtraTrees,RandomForest,0.9272727272727275,0.8545454545454545,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,42,9,2,GradientBoosting,RandomForest,0.9363636363636365,0.8181818181818182,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,43,9,3,ExtraTrees,GradientBoosting,0.8545454545454546,0.6727272727272727,2,Hydrogen; VS
+A_BMP_VS_all_features,outer_fold_heldout,43,9,3,ExtraTrees,RandomForest,0.9181818181818183,0.7818181818181819,2,DM; VS
+A_BMP_VS_all_features,outer_fold_heldout,43,9,3,GradientBoosting,RandomForest,0.9,0.7454545454545454,2,Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,44,9,4,ExtraTrees,GradientBoosting,0.9272727272727275,0.8181818181818182,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,44,9,4,ExtraTrees,RandomForest,0.9636363636363637,0.8909090909090909,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,44,9,4,GradientBoosting,RandomForest,0.9090909090909091,0.7818181818181819,2,Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,45,9,5,ExtraTrees,GradientBoosting,0.8909090909090911,0.7090909090909091,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,45,9,5,ExtraTrees,RandomForest,0.9363636363636365,0.7818181818181819,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,45,9,5,GradientBoosting,RandomForest,0.9363636363636365,0.8545454545454545,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,46,10,1,ExtraTrees,GradientBoosting,0.7818181818181819,0.5636363636363636,2,DM; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,46,10,1,ExtraTrees,RandomForest,0.8545454545454546,0.6727272727272727,2,DM; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,46,10,1,GradientBoosting,RandomForest,0.9090909090909091,0.7454545454545454,3,DM; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,47,10,2,ExtraTrees,GradientBoosting,0.9,0.7090909090909091,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,47,10,2,ExtraTrees,RandomForest,0.9636363636363637,0.8909090909090909,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,47,10,2,GradientBoosting,RandomForest,0.8454545454545455,0.6727272727272727,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,48,10,3,ExtraTrees,GradientBoosting,0.9272727272727275,0.7818181818181819,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,48,10,3,ExtraTrees,RandomForest,0.9454545454545454,0.8181818181818182,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,48,10,3,GradientBoosting,RandomForest,0.990909090909091,0.9636363636363636,3,DM; Lignin; VS
+A_BMP_VS_all_features,outer_fold_heldout,49,10,4,ExtraTrees,GradientBoosting,0.8636363636363636,0.7090909090909091,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,49,10,4,ExtraTrees,RandomForest,0.8272727272727273,0.6727272727272727,3,DM; Hydrogen; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,49,10,4,GradientBoosting,RandomForest,0.8636363636363636,0.7454545454545454,2,DM; Lignin
+A_BMP_VS_all_features,outer_fold_heldout,50,10,5,ExtraTrees,GradientBoosting,0.8545454545454546,0.6727272727272727,2,Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,50,10,5,ExtraTrees,RandomForest,0.9181818181818183,0.7818181818181819,3,Hydrogen; Lignin; Oxygen
+A_BMP_VS_all_features,outer_fold_heldout,50,10,5,GradientBoosting,RandomForest,0.9272727272727275,0.8181818181818182,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,1,1,1,ExtraTrees,GradientBoosting,0.9166666666666666,0.7777777777777778,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,1,1,1,ExtraTrees,RandomForest,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,1,1,1,GradientBoosting,RandomForest,0.9,0.7222222222222222,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,2,1,2,ExtraTrees,GradientBoosting,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,2,1,2,ExtraTrees,RandomForest,0.9166666666666666,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,2,1,2,GradientBoosting,RandomForest,0.8833333333333333,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,3,1,3,ExtraTrees,GradientBoosting,0.7999999999999999,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,3,1,3,ExtraTrees,RandomForest,0.6666666666666667,0.4444444444444444,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,3,1,3,GradientBoosting,RandomForest,0.7833333333333333,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,4,1,4,ExtraTrees,GradientBoosting,0.9500000000000001,0.8333333333333334,2,Carbon; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,4,1,4,ExtraTrees,RandomForest,0.8666666666666667,0.6666666666666666,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,4,1,4,GradientBoosting,RandomForest,0.8666666666666667,0.7222222222222222,2,Carbon; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,5,1,5,ExtraTrees,GradientBoosting,0.6333333333333333,0.3888888888888889,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,5,1,5,ExtraTrees,RandomForest,0.7333333333333334,0.5555555555555556,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,5,1,5,GradientBoosting,RandomForest,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,6,2,1,ExtraTrees,GradientBoosting,0.9,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,6,2,1,ExtraTrees,RandomForest,0.9,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,6,2,1,GradientBoosting,RandomForest,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,7,2,2,ExtraTrees,GradientBoosting,0.9333333333333332,0.8333333333333334,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,7,2,2,ExtraTrees,RandomForest,0.8166666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,7,2,2,GradientBoosting,RandomForest,0.8333333333333333,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,8,2,3,ExtraTrees,GradientBoosting,0.8499999999999999,0.6666666666666666,2,Carbon; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,8,2,3,ExtraTrees,RandomForest,0.8166666666666667,0.611111111111111,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,8,2,3,GradientBoosting,RandomForest,0.9166666666666666,0.8333333333333334,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,9,2,4,ExtraTrees,GradientBoosting,0.9166666666666666,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,9,2,4,ExtraTrees,RandomForest,0.9,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,9,2,4,GradientBoosting,RandomForest,0.9166666666666666,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,10,2,5,ExtraTrees,GradientBoosting,0.7166666666666667,0.5555555555555556,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,10,2,5,ExtraTrees,RandomForest,0.8333333333333333,0.6666666666666666,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,10,2,5,GradientBoosting,RandomForest,0.8833333333333333,0.7777777777777778,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,11,3,1,ExtraTrees,GradientBoosting,0.9,0.7222222222222222,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,11,3,1,ExtraTrees,RandomForest,0.9500000000000001,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,11,3,1,GradientBoosting,RandomForest,0.8833333333333333,0.7222222222222222,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,12,3,2,ExtraTrees,GradientBoosting,0.7999999999999999,0.611111111111111,2,Carbon; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,12,3,2,ExtraTrees,RandomForest,0.8499999999999999,0.7222222222222222,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,12,3,2,GradientBoosting,RandomForest,0.8166666666666667,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,13,3,3,ExtraTrees,GradientBoosting,0.7999999999999999,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,13,3,3,ExtraTrees,RandomForest,0.7833333333333333,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,13,3,3,GradientBoosting,RandomForest,0.75,0.5555555555555556,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,14,3,4,ExtraTrees,GradientBoosting,0.7166666666666667,0.5555555555555556,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,14,3,4,ExtraTrees,RandomForest,0.9166666666666666,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,14,3,4,GradientBoosting,RandomForest,0.7666666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,15,3,5,ExtraTrees,GradientBoosting,0.8333333333333333,0.6666666666666666,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,15,3,5,ExtraTrees,RandomForest,0.8166666666666667,0.611111111111111,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,15,3,5,GradientBoosting,RandomForest,0.7833333333333333,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,16,4,1,ExtraTrees,GradientBoosting,0.8666666666666667,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,16,4,1,ExtraTrees,RandomForest,0.9333333333333332,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,16,4,1,GradientBoosting,RandomForest,0.7833333333333333,0.5555555555555556,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,17,4,2,ExtraTrees,GradientBoosting,0.7999999999999999,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,17,4,2,ExtraTrees,RandomForest,0.9166666666666666,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,17,4,2,GradientBoosting,RandomForest,0.8833333333333333,0.7777777777777778,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,18,4,3,ExtraTrees,GradientBoosting,0.9500000000000001,0.8333333333333334,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,18,4,3,ExtraTrees,RandomForest,0.9666666666666667,0.8888888888888888,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,18,4,3,GradientBoosting,RandomForest,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,19,4,4,ExtraTrees,GradientBoosting,0.7833333333333333,0.611111111111111,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,19,4,4,ExtraTrees,RandomForest,0.8666666666666667,0.6666666666666666,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,19,4,4,GradientBoosting,RandomForest,0.7999999999999999,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,20,4,5,ExtraTrees,GradientBoosting,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,20,4,5,ExtraTrees,RandomForest,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,20,4,5,GradientBoosting,RandomForest,0.9333333333333332,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,21,5,1,ExtraTrees,GradientBoosting,0.9,0.7777777777777778,3,Carbon; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,21,5,1,ExtraTrees,RandomForest,0.75,0.5555555555555556,3,Carbon; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,21,5,1,GradientBoosting,RandomForest,0.8833333333333333,0.7777777777777778,3,Carbon; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,22,5,2,ExtraTrees,GradientBoosting,0.9833333333333333,0.9444444444444445,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,22,5,2,ExtraTrees,RandomForest,0.9500000000000001,0.8888888888888888,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,22,5,2,GradientBoosting,RandomForest,0.9833333333333333,0.9444444444444445,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,23,5,3,ExtraTrees,GradientBoosting,0.8166666666666667,0.6666666666666666,2,Carbon; Hydrogen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,23,5,3,ExtraTrees,RandomForest,0.9500000000000001,0.8888888888888888,3,Carbon; Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,23,5,3,GradientBoosting,RandomForest,0.8833333333333333,0.7777777777777778,2,Carbon; Hydrogen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,24,5,4,ExtraTrees,GradientBoosting,0.9,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,24,5,4,ExtraTrees,RandomForest,0.8833333333333333,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,24,5,4,GradientBoosting,RandomForest,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,25,5,5,ExtraTrees,GradientBoosting,0.7999999999999999,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,25,5,5,ExtraTrees,RandomForest,0.9333333333333332,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,25,5,5,GradientBoosting,RandomForest,0.7333333333333334,0.611111111111111,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,26,6,1,ExtraTrees,GradientBoosting,0.6833333333333333,0.5,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,26,6,1,ExtraTrees,RandomForest,0.8499999999999999,0.7222222222222222,3,Carbon; Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,26,6,1,GradientBoosting,RandomForest,0.9,0.7777777777777778,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,27,6,2,ExtraTrees,GradientBoosting,0.9833333333333333,0.9444444444444445,3,Carbon; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,27,6,2,ExtraTrees,RandomForest,0.9666666666666667,0.8888888888888888,3,Carbon; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,27,6,2,GradientBoosting,RandomForest,0.9333333333333332,0.8333333333333334,3,Carbon; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,28,6,3,ExtraTrees,GradientBoosting,0.8833333333333333,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,28,6,3,ExtraTrees,RandomForest,0.9166666666666666,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,28,6,3,GradientBoosting,RandomForest,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,29,6,4,ExtraTrees,GradientBoosting,0.8666666666666667,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,29,6,4,ExtraTrees,RandomForest,0.9,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,29,6,4,GradientBoosting,RandomForest,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,30,6,5,ExtraTrees,GradientBoosting,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,30,6,5,ExtraTrees,RandomForest,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,30,6,5,GradientBoosting,RandomForest,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,31,7,1,ExtraTrees,GradientBoosting,0.8666666666666667,0.6666666666666666,2,Carbon; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,31,7,1,ExtraTrees,RandomForest,0.8499999999999999,0.7222222222222222,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,31,7,1,GradientBoosting,RandomForest,0.7999999999999999,0.611111111111111,2,Carbon; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,32,7,2,ExtraTrees,GradientBoosting,0.8333333333333333,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,32,7,2,ExtraTrees,RandomForest,0.8833333333333333,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,32,7,2,GradientBoosting,RandomForest,0.9500000000000001,0.8888888888888888,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,33,7,3,ExtraTrees,GradientBoosting,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,33,7,3,ExtraTrees,RandomForest,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,33,7,3,GradientBoosting,RandomForest,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,34,7,4,ExtraTrees,GradientBoosting,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,34,7,4,ExtraTrees,RandomForest,0.7666666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,34,7,4,GradientBoosting,RandomForest,0.8333333333333333,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,35,7,5,ExtraTrees,GradientBoosting,0.8499999999999999,0.7222222222222222,2,Carbon; Hydrogen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,35,7,5,ExtraTrees,RandomForest,0.8499999999999999,0.7222222222222222,2,Carbon; Hydrogen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,35,7,5,GradientBoosting,RandomForest,0.8833333333333333,0.7777777777777778,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,36,8,1,ExtraTrees,GradientBoosting,0.8833333333333333,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,36,8,1,ExtraTrees,RandomForest,0.9500000000000001,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,36,8,1,GradientBoosting,RandomForest,0.9166666666666666,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,37,8,2,ExtraTrees,GradientBoosting,0.6833333333333333,0.5,2,Carbon; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,37,8,2,ExtraTrees,RandomForest,0.7,0.4444444444444444,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,37,8,2,GradientBoosting,RandomForest,0.9333333333333332,0.8333333333333334,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,38,8,3,ExtraTrees,GradientBoosting,0.7999999999999999,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,38,8,3,ExtraTrees,RandomForest,0.8333333333333333,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,38,8,3,GradientBoosting,RandomForest,0.9333333333333332,0.8333333333333334,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,39,8,4,ExtraTrees,GradientBoosting,0.8166666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,39,8,4,ExtraTrees,RandomForest,0.8333333333333333,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,39,8,4,GradientBoosting,RandomForest,0.9833333333333333,0.9444444444444445,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,40,8,5,ExtraTrees,GradientBoosting,1.0,1.0,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,40,8,5,ExtraTrees,RandomForest,0.8333333333333333,0.6666666666666666,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,40,8,5,GradientBoosting,RandomForest,0.8333333333333333,0.6666666666666666,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,41,9,1,ExtraTrees,GradientBoosting,0.8499999999999999,0.7222222222222222,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,41,9,1,ExtraTrees,RandomForest,0.8333333333333333,0.6666666666666666,2,Carbon; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,41,9,1,GradientBoosting,RandomForest,0.7999999999999999,0.611111111111111,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,42,9,2,ExtraTrees,GradientBoosting,0.7999999999999999,0.611111111111111,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,42,9,2,ExtraTrees,RandomForest,0.8166666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,42,9,2,GradientBoosting,RandomForest,0.8333333333333333,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,43,9,3,ExtraTrees,GradientBoosting,0.8499999999999999,0.6666666666666666,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,43,9,3,ExtraTrees,RandomForest,0.6833333333333333,0.3888888888888889,2,Hydrogen; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,43,9,3,GradientBoosting,RandomForest,0.8499999999999999,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,44,9,4,ExtraTrees,GradientBoosting,0.9500000000000001,0.8888888888888888,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,44,9,4,ExtraTrees,RandomForest,0.9666666666666667,0.8888888888888888,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,44,9,4,GradientBoosting,RandomForest,0.8833333333333333,0.7777777777777778,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,45,9,5,ExtraTrees,GradientBoosting,0.8666666666666667,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,45,9,5,ExtraTrees,RandomForest,0.9,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,45,9,5,GradientBoosting,RandomForest,0.8166666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,46,10,1,ExtraTrees,GradientBoosting,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,46,10,1,ExtraTrees,RandomForest,0.7166666666666667,0.5555555555555556,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,46,10,1,GradientBoosting,RandomForest,0.7666666666666667,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,47,10,2,ExtraTrees,GradientBoosting,0.7,0.5,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,47,10,2,ExtraTrees,RandomForest,0.8666666666666667,0.6666666666666666,3,Carbon; Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,47,10,2,GradientBoosting,RandomForest,0.8666666666666667,0.7222222222222222,2,Hydrogen; Lignin
+B_BMP_DM_no_DM_VS,outer_fold_heldout,48,10,3,ExtraTrees,GradientBoosting,0.8166666666666667,0.611111111111111,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,48,10,3,ExtraTrees,RandomForest,0.8666666666666667,0.7222222222222222,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,48,10,3,GradientBoosting,RandomForest,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,49,10,4,ExtraTrees,GradientBoosting,0.7833333333333333,0.5555555555555556,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,49,10,4,ExtraTrees,RandomForest,0.9166666666666666,0.7777777777777778,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,49,10,4,GradientBoosting,RandomForest,0.8333333333333333,0.6666666666666666,2,Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,50,10,5,ExtraTrees,GradientBoosting,0.8499999999999999,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,50,10,5,ExtraTrees,RandomForest,0.9666666666666667,0.8888888888888888,3,Hydrogen; Lignin; Oxygen
+B_BMP_DM_no_DM_VS,outer_fold_heldout,50,10,5,GradientBoosting,RandomForest,0.8499999999999999,0.6666666666666666,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,1,1,1,ExtraTrees,GradientBoosting,0.9727272727272729,0.8909090909090909,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,1,1,1,ExtraTrees,RandomForest,0.9727272727272729,0.8909090909090909,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,1,1,1,GradientBoosting,RandomForest,0.9454545454545454,0.8545454545454545,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,2,1,2,ExtraTrees,GradientBoosting,0.9454545454545454,0.8181818181818182,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,2,1,2,ExtraTrees,RandomForest,0.9363636363636365,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,2,1,2,GradientBoosting,RandomForest,0.9,0.7818181818181819,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,3,1,3,ExtraTrees,GradientBoosting,0.9,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,3,1,3,ExtraTrees,RandomForest,0.8454545454545455,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,3,1,3,GradientBoosting,RandomForest,0.7363636363636363,0.5636363636363636,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,4,1,4,ExtraTrees,GradientBoosting,0.8454545454545455,0.6363636363636364,3,Carbon; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,4,1,4,ExtraTrees,RandomForest,0.9636363636363637,0.8909090909090909,3,Carbon; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,4,1,4,GradientBoosting,RandomForest,0.881818181818182,0.7454545454545454,3,Carbon; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,5,1,5,ExtraTrees,GradientBoosting,0.8545454545454546,0.6727272727272727,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,5,1,5,ExtraTrees,RandomForest,0.9272727272727275,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,5,1,5,GradientBoosting,RandomForest,0.8636363636363636,0.7090909090909091,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,6,2,1,ExtraTrees,GradientBoosting,0.8545454545454546,0.7090909090909091,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,6,2,1,ExtraTrees,RandomForest,0.8545454545454546,0.7090909090909091,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,6,2,1,GradientBoosting,RandomForest,0.9545454545454546,0.8545454545454545,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,7,2,2,ExtraTrees,GradientBoosting,0.9545454545454546,0.8545454545454545,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,7,2,2,ExtraTrees,RandomForest,0.990909090909091,0.9636363636363636,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,7,2,2,GradientBoosting,RandomForest,0.9636363636363637,0.8909090909090909,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,8,2,3,ExtraTrees,GradientBoosting,0.8545454545454546,0.7090909090909091,2,DM; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,8,2,3,ExtraTrees,RandomForest,0.8090909090909091,0.6363636363636364,2,DM; Hydrogen
+C_BMP_DM_all_features,outer_fold_heldout,8,2,3,GradientBoosting,RandomForest,0.8363636363636365,0.6363636363636364,2,DM; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,9,2,4,ExtraTrees,GradientBoosting,0.7636363636363637,0.5636363636363636,1,Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,9,2,4,ExtraTrees,RandomForest,0.8727272727272729,0.7454545454545454,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,9,2,4,GradientBoosting,RandomForest,0.9272727272727275,0.8181818181818182,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,10,2,5,ExtraTrees,GradientBoosting,0.8181818181818182,0.6363636363636364,3,DM; Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,10,2,5,ExtraTrees,RandomForest,0.9454545454545454,0.8181818181818182,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,10,2,5,GradientBoosting,RandomForest,0.881818181818182,0.7454545454545454,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,11,3,1,ExtraTrees,GradientBoosting,0.9,0.7454545454545454,2,DM; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,11,3,1,ExtraTrees,RandomForest,0.8727272727272729,0.7090909090909091,2,DM; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,11,3,1,GradientBoosting,RandomForest,0.9636363636363637,0.8909090909090909,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,12,3,2,ExtraTrees,GradientBoosting,0.8545454545454546,0.6727272727272727,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,12,3,2,ExtraTrees,RandomForest,0.9090909090909091,0.7818181818181819,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,12,3,2,GradientBoosting,RandomForest,0.9363636363636365,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,13,3,3,ExtraTrees,GradientBoosting,0.9636363636363637,0.8909090909090909,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,13,3,3,ExtraTrees,RandomForest,0.9545454545454546,0.8545454545454545,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,13,3,3,GradientBoosting,RandomForest,0.9272727272727275,0.8181818181818182,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,14,3,4,ExtraTrees,GradientBoosting,0.8909090909090911,0.7090909090909091,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,14,3,4,ExtraTrees,RandomForest,0.9,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,14,3,4,GradientBoosting,RandomForest,0.7636363636363637,0.6000000000000001,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,15,3,5,ExtraTrees,GradientBoosting,0.790909090909091,0.6000000000000001,1,Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,15,3,5,ExtraTrees,RandomForest,0.9545454545454546,0.8545454545454545,2,Carbon; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,15,3,5,GradientBoosting,RandomForest,0.8090909090909091,0.6000000000000001,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,16,4,1,ExtraTrees,GradientBoosting,0.9,0.7454545454545454,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,16,4,1,ExtraTrees,RandomForest,0.8272727272727273,0.6363636363636364,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,16,4,1,GradientBoosting,RandomForest,0.9636363636363637,0.8909090909090909,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,17,4,2,ExtraTrees,GradientBoosting,0.9454545454545454,0.8545454545454545,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,17,4,2,ExtraTrees,RandomForest,0.9818181818181818,0.9272727272727274,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,17,4,2,GradientBoosting,RandomForest,0.8909090909090911,0.7818181818181819,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,18,4,3,ExtraTrees,GradientBoosting,0.8363636363636365,0.7090909090909091,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,18,4,3,ExtraTrees,RandomForest,0.881818181818182,0.7454545454545454,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,18,4,3,GradientBoosting,RandomForest,0.8636363636363636,0.7454545454545454,3,DM; Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,19,4,4,ExtraTrees,GradientBoosting,0.9090909090909091,0.7818181818181819,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,19,4,4,ExtraTrees,RandomForest,0.9636363636363637,0.8545454545454545,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,19,4,4,GradientBoosting,RandomForest,0.9090909090909091,0.7818181818181819,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,20,4,5,ExtraTrees,GradientBoosting,0.7363636363636363,0.5636363636363636,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,20,4,5,ExtraTrees,RandomForest,0.9181818181818183,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,20,4,5,GradientBoosting,RandomForest,0.7636363636363637,0.6000000000000001,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,21,5,1,ExtraTrees,GradientBoosting,0.8181818181818182,0.6363636363636364,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,21,5,1,ExtraTrees,RandomForest,0.9272727272727275,0.7818181818181819,3,Carbon; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,21,5,1,GradientBoosting,RandomForest,0.8636363636363636,0.7090909090909091,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,22,5,2,ExtraTrees,GradientBoosting,0.9454545454545454,0.8181818181818182,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,22,5,2,ExtraTrees,RandomForest,0.9818181818181818,0.9272727272727274,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,22,5,2,GradientBoosting,RandomForest,0.9636363636363637,0.8909090909090909,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,23,5,3,ExtraTrees,GradientBoosting,0.8272727272727273,0.6363636363636364,2,DM; Hydrogen
+C_BMP_DM_all_features,outer_fold_heldout,23,5,3,ExtraTrees,RandomForest,0.8545454545454546,0.7090909090909091,2,Carbon; Hydrogen
+C_BMP_DM_all_features,outer_fold_heldout,23,5,3,GradientBoosting,RandomForest,0.8090909090909091,0.6363636363636364,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,24,5,4,ExtraTrees,GradientBoosting,0.9636363636363637,0.8909090909090909,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,24,5,4,ExtraTrees,RandomForest,0.9454545454545454,0.8545454545454545,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,24,5,4,GradientBoosting,RandomForest,0.9181818181818183,0.8181818181818182,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,25,5,5,ExtraTrees,GradientBoosting,0.7727272727272727,0.5636363636363636,1,Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,25,5,5,ExtraTrees,RandomForest,0.8363636363636365,0.6727272727272727,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,25,5,5,GradientBoosting,RandomForest,0.9272727272727275,0.8181818181818182,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,26,6,1,ExtraTrees,GradientBoosting,0.790909090909091,0.6363636363636364,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,26,6,1,ExtraTrees,RandomForest,0.8090909090909091,0.6727272727272727,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,26,6,1,GradientBoosting,RandomForest,0.9,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,27,6,2,ExtraTrees,GradientBoosting,0.8636363636363636,0.7090909090909091,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,27,6,2,ExtraTrees,RandomForest,0.9,0.8181818181818182,3,Carbon; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,27,6,2,GradientBoosting,RandomForest,0.9,0.7454545454545454,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,28,6,3,ExtraTrees,GradientBoosting,0.7727272727272727,0.5636363636363636,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,28,6,3,ExtraTrees,RandomForest,0.8363636363636365,0.6363636363636364,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,28,6,3,GradientBoosting,RandomForest,0.9090909090909091,0.7818181818181819,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,29,6,4,ExtraTrees,GradientBoosting,0.9272727272727275,0.7818181818181819,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,29,6,4,ExtraTrees,RandomForest,0.9636363636363637,0.8909090909090909,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,29,6,4,GradientBoosting,RandomForest,0.9181818181818183,0.7454545454545454,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,30,6,5,ExtraTrees,GradientBoosting,0.9090909090909091,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,30,6,5,ExtraTrees,RandomForest,0.8454545454545455,0.6727272727272727,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,30,6,5,GradientBoosting,RandomForest,0.8636363636363636,0.7090909090909091,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,31,7,1,ExtraTrees,GradientBoosting,0.9545454545454546,0.8545454545454545,3,DM; Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,31,7,1,ExtraTrees,RandomForest,0.8727272727272729,0.7454545454545454,2,DM; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,31,7,1,GradientBoosting,RandomForest,0.8545454545454546,0.6727272727272727,2,DM; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,32,7,2,ExtraTrees,GradientBoosting,0.9181818181818183,0.8181818181818182,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,32,7,2,ExtraTrees,RandomForest,0.9181818181818183,0.8181818181818182,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,32,7,2,GradientBoosting,RandomForest,0.9181818181818183,0.7818181818181819,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,33,7,3,ExtraTrees,GradientBoosting,0.9,0.7454545454545454,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,33,7,3,ExtraTrees,RandomForest,0.9,0.7090909090909091,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,33,7,3,GradientBoosting,RandomForest,0.9727272727272729,0.8909090909090909,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,34,7,4,ExtraTrees,GradientBoosting,0.8727272727272729,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,34,7,4,ExtraTrees,RandomForest,0.9727272727272729,0.9272727272727274,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,34,7,4,GradientBoosting,RandomForest,0.8636363636363636,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,35,7,5,ExtraTrees,GradientBoosting,0.881818181818182,0.7090909090909091,1,Hydrogen
+C_BMP_DM_all_features,outer_fold_heldout,35,7,5,ExtraTrees,RandomForest,0.8727272727272729,0.7454545454545454,2,Carbon; Hydrogen
+C_BMP_DM_all_features,outer_fold_heldout,35,7,5,GradientBoosting,RandomForest,0.8090909090909091,0.6000000000000001,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,36,8,1,ExtraTrees,GradientBoosting,0.7727272727272727,0.5636363636363636,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,36,8,1,ExtraTrees,RandomForest,0.9454545454545454,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,36,8,1,GradientBoosting,RandomForest,0.8545454545454546,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,37,8,2,ExtraTrees,GradientBoosting,0.9090909090909091,0.7818181818181819,2,DM; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,37,8,2,ExtraTrees,RandomForest,0.9181818181818183,0.7818181818181819,2,DM; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,37,8,2,GradientBoosting,RandomForest,0.9545454545454546,0.8545454545454545,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,38,8,3,ExtraTrees,GradientBoosting,0.8454545454545455,0.6727272727272727,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,38,8,3,ExtraTrees,RandomForest,0.9090909090909091,0.7818181818181819,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,38,8,3,GradientBoosting,RandomForest,0.8545454545454546,0.6727272727272727,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,39,8,4,ExtraTrees,GradientBoosting,0.8727272727272729,0.7454545454545454,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,39,8,4,ExtraTrees,RandomForest,0.9090909090909091,0.7818181818181819,2,Hydrogen; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,39,8,4,GradientBoosting,RandomForest,0.9636363636363637,0.8909090909090909,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,40,8,5,ExtraTrees,GradientBoosting,0.9363636363636365,0.8545454545454545,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,40,8,5,ExtraTrees,RandomForest,0.9363636363636365,0.8545454545454545,2,Carbon; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,40,8,5,GradientBoosting,RandomForest,0.9090909090909091,0.7818181818181819,1,Lignin
+C_BMP_DM_all_features,outer_fold_heldout,41,9,1,ExtraTrees,GradientBoosting,0.8545454545454546,0.7454545454545454,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,41,9,1,ExtraTrees,RandomForest,0.9181818181818183,0.7818181818181819,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,41,9,1,GradientBoosting,RandomForest,0.881818181818182,0.7454545454545454,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,42,9,2,ExtraTrees,GradientBoosting,0.8272727272727273,0.6000000000000001,2,DM; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,42,9,2,ExtraTrees,RandomForest,0.8545454545454546,0.6727272727272727,2,DM; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,42,9,2,GradientBoosting,RandomForest,0.9545454545454546,0.8545454545454545,3,DM; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,43,9,3,ExtraTrees,GradientBoosting,0.9636363636363637,0.8909090909090909,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,43,9,3,ExtraTrees,RandomForest,0.9454545454545454,0.8181818181818182,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,43,9,3,GradientBoosting,RandomForest,0.9181818181818183,0.7818181818181819,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,44,9,4,ExtraTrees,GradientBoosting,0.8727272727272729,0.7090909090909091,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,44,9,4,ExtraTrees,RandomForest,0.9727272727272729,0.8909090909090909,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,44,9,4,GradientBoosting,RandomForest,0.9,0.7454545454545454,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,45,9,5,ExtraTrees,GradientBoosting,0.8727272727272729,0.6727272727272727,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,45,9,5,ExtraTrees,RandomForest,0.9,0.7454545454545454,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,45,9,5,GradientBoosting,RandomForest,0.9272727272727275,0.8545454545454545,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,46,10,1,ExtraTrees,GradientBoosting,0.9181818181818183,0.7818181818181819,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,46,10,1,ExtraTrees,RandomForest,0.7727272727272727,0.5636363636363636,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,46,10,1,GradientBoosting,RandomForest,0.7000000000000001,0.4909090909090909,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,47,10,2,ExtraTrees,GradientBoosting,0.8636363636363636,0.7090909090909091,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,47,10,2,ExtraTrees,RandomForest,0.9363636363636365,0.8181818181818182,3,Carbon; Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,47,10,2,GradientBoosting,RandomForest,0.9,0.7454545454545454,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,48,10,3,ExtraTrees,GradientBoosting,0.9363636363636365,0.8181818181818182,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,48,10,3,ExtraTrees,RandomForest,0.9545454545454546,0.8545454545454545,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,48,10,3,GradientBoosting,RandomForest,0.990909090909091,0.9636363636363636,2,Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,49,10,4,ExtraTrees,GradientBoosting,0.9272727272727275,0.8181818181818182,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,49,10,4,ExtraTrees,RandomForest,0.8545454545454546,0.7090909090909091,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,49,10,4,GradientBoosting,RandomForest,0.8181818181818182,0.6727272727272727,2,Hydrogen; Lignin
+C_BMP_DM_all_features,outer_fold_heldout,50,10,5,ExtraTrees,GradientBoosting,0.881818181818182,0.7090909090909091,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,50,10,5,ExtraTrees,RandomForest,0.9272727272727275,0.7818181818181819,3,Hydrogen; Lignin; Oxygen
+C_BMP_DM_all_features,outer_fold_heldout,50,10,5,GradientBoosting,RandomForest,0.8454545454545455,0.7090909090909091,3,Hydrogen; Lignin; Oxygen

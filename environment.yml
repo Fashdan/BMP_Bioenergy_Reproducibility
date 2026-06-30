@@ -1,0 +1,16 @@
+name: bmp-bioenergy-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pandas==2.2.2
+      - numpy==2.4.0
+      - scipy==1.17.0
+      - scikit-learn==1.5.1
+      - matplotlib==3.9.1
+      - seaborn==0.13.2
+      - shap==0.51.0
+      - joblib==1.4.2
+      - pillow==10.4.0

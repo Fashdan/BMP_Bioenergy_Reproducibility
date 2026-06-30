@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite the associated manuscript and the original Lallement et al. (2023) Waste dataset article."
+title: "Reproducible workflow for explainable machine learning analysis of biochemical methane potential"
+version: "1.0.0"
+authors:
+  - family-names: "Fasheun"
+    given-names: "Daniel Oluwagbotemi"
+  - family-names: "Omage"
+    given-names: "Folorunsho Bright"
+  - family-names: "Ferreira-Leitao"
+    given-names: "Viridiana Santana"
+preferred-citation:
+  type: article
+  title: "An Explainable Machine Learning Framework for Hypothesis Generation in Biochemical Methane Potential Prediction"
+  authors:
+    - family-names: "Fasheun"
+      given-names: "Daniel Oluwagbotemi"
+    - family-names: "Omage"
+      given-names: "Folorunsho Bright"
+    - family-names: "Ferreira-Leitao"
+      given-names: "Viridiana Santana"
+  year: 2026

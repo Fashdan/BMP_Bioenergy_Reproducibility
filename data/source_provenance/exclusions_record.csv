@@ -1,0 +1,5 @@
+source_row_id,Family,Type,Sub Type,DM Mean (% FM),included_DM_ge_15,complete_model_inputs,exclusion_reason
+4,MAN,Horse,,8.0,False,True,DM Mean (% FM) < 15
+6,SLU,Cattle,,4.7,False,True,DM Mean (% FM) < 15
+14,SLU,Cattle,,10.4,False,True,DM Mean (% FM) < 15
+26,SLU,Duck,,6.2,False,True,DM Mean (% FM) < 15
