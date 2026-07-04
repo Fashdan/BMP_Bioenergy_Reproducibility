@@ -2,6 +2,10 @@ cff-version: 1.2.0
 message: "If you use this workflow, please cite the associated manuscript and the original Lallement et al. (2023) Waste dataset article."
 title: "Reproducible workflow for explainable machine learning analysis of biochemical methane potential"
 version: "1.0.0"
+doi: "10.5281/zenodo.21081788"
+url: "https://doi.org/10.5281/zenodo.21081788"
+repository-code: "https://github.com/Fashdan/BMP_Bioenergy_Reproducibility"
+license: "MIT"
 authors:
   - family-names: "Fasheun"
     given-names: "Daniel Oluwagbotemi"
